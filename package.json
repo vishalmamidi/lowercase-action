@@ -1,5 +1,5 @@
 {
-  "name": "string-case-action",
+  "name": "lowercase-action",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vishalmamidi/string-case-action.git"
+    "url": "git+https://github.com/vishalmamidi/lowercase-action.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vishalmamidi/string-case-action/issues"
+    "url": "https://github.com/vishalmamidi/lowercase-action/issues"
   },
-  "homepage": "https://github.com/vishalmamidi/string-case-action#readme",
+  "homepage": "https://github.com/vishalmamidi/lowercase-action#readme",
   "dependencies": {
     "@actions/core": "^1.10.0",
     "@actions/github": "^5.1.1"
