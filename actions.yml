@@ -1,0 +1,18 @@
+name: String Case Action 
+author: vishal mamidi
+description: convert string to lowercase or uppercase
+branding:
+  icon: corner-down-right
+  color: gray-dark
+inputs:
+  string:
+    description: The input string
+    required: true
+outputs:
+  lowercase:
+    description: convert to lowercase
+  uppercase:
+    description: convert to uppercase
+runs:
+  using: node16
+  main: index.js
