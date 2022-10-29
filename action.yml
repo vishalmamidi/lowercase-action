@@ -1,4 +1,4 @@
-name: String Case Action 
+name: Change to Lowercase Action  
 author: vishal mamidi
 description: convert string to lowercase or uppercase
 branding:
