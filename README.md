@@ -1,9 +1,9 @@
 # GitHub Action to change string to lowercase or upper case 
 
-- lowercase (`VishalMamidi` -> `vishalmamidi`)
-- uppercase (`VishalMamidi` -> `VISHALMAMIDI`)
+- steps.string.outputs.lowercase  (`VishalMamidi` -> `vishalmamidi`)
+- steps.string.outputs.uppercase  (`VishalMamidi` -> `VISHALMAMIDI`)
 
-## examples
+## example
 
 ```
 name: upper-to-lower
@@ -16,6 +16,10 @@ jobs:
         with:
           string: ${{ github.event.repository.name }}
         
-      - name: Run a one-line script
+      - name: log lowercase repo name
         run: echo ${{ steps.string.outputs.lowercase }}
+
+      - name: log uppercase repo name
+        run: echo ${{ steps.string.outputs.uppercase }}
+        
 ```
